@@ -1,4 +1,64 @@
 {
+	"xiaokh": {
+		"prefix": "/a",
+		"body": [
+			"()"
+		],
+		"description": "xiaokh"
+	},
+	"xiaokh2": {
+		"prefix": "/b",
+		"body": [
+			"($0)"
+		],
+		"description": "xiaokh2"
+	},
+
+	"danyh": {
+		"prefix": "/c",
+		"body": [
+			"'$0'"
+		],
+		"description": "danyh"
+	},
+	"maody": {
+		"prefix": "/d",
+		"body": [
+			" := "
+		],
+		"description": "maody"
+	},
+	"jiankh": {
+		"prefix": "/e",
+		"body": [
+			"<$0>"
+		],
+		"description": "jiankh"
+	},
+	"syinhao": {
+		"prefix": "/f",
+		"body": [
+			"\"$0\""
+		],
+		"description": "syinhao"
+	},
+	"dakh": {
+		"prefix": "/g",
+		"body": [
+			"{",
+			"    $0",
+			"}",
+			""
+		],
+		"description": "dakh"
+	},
+	"zhongkh": {
+		"prefix": "/h",
+		"body": [
+			"[$0]"
+		],
+		"description": "zhongkh"
+	},
 	"equal": {
 		"prefix": "/i",
 		"body": [
@@ -6,21 +66,35 @@
 		],
 		"description": "equal"
 	},
-        "xinhao": {
+	"xinhao": {
 		"prefix": "/k",
 		"body": [
 			"*",
 		],
 		"description": "xinhao"
 	},
-        "equals": {
+	"qudizhi": {
+		"prefix": "/l",
+		"body": [
+			"&",
+		],
+		"description": "qudizhi"
+	},
+	"equals": {
 		"prefix": "/n",
 		"body": [
 			" == ",
 		],
 		"description": "equals"
 	},
-        "binqie": {
+	"ganth": {
+		"prefix": "/p",
+		"body": [
+			"!",
+		],
+		"description": "ganth"
+	},
+	"binqie": {
 		"prefix": "/q",
 		"body": [
 			" && ",
@@ -34,63 +108,6 @@
 		],
 		"description": "huoze"
 	},
-        "ganth": {
-		"prefix": "/p",
-		"body": [
-			"!",
-		],
-		"description": "ganth"
-	},
-        "qudizhi": {
-		"prefix": "/l",
-		"body": [
-			"&",
-		],
-		"description": "qudizhi"
-	},
-        "zhongkh": {
-		"prefix": "/h",
-		"body": [
-			"[$0]"
-		],
-		"description": "zhongkh"
-	},
-        "dakh": {
-		"prefix": "/g",
-		"body": [
-			"{",
-			"    $0",
-			"}",
-			""
-		],
-		"description": "dakh"
-	},
-        "syinhao": {
-		"prefix": "/f",
-		"body": [
-			"\"$0\""
-		],
-		"description": "syinhao"
-	},
-        "jiankh": {
-		"prefix": "/e",
-		"body": [
-			"<$0>"
-		],
-		"description": "jiankh"
-	},
-        "xiaokh2": {
-		"prefix": "/b",
-		"body": [
-			"($0)"
-		],
-		"description": "xiaokh2"
-	},
-        "xiaokh": {
-		"prefix": "/a",
-		"body": [
-			"()"
-		],
-		"description": "xiaokh"
-	},
 }
+
+
