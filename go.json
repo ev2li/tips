@@ -87,6 +87,13 @@
 		],
 		"description": "equals"
 	},
+	"xiahx": {
+		"prefix": "/o",
+		"body": [
+			"_",
+		],
+		"description": "xiahx"
+	},
 	"ganth": {
 		"prefix": "/p",
 		"body": [
@@ -107,6 +114,24 @@
 			" || ",
 		],
 		"description": "huoze"
+	},
+	"budy": {
+		"prefix": "/t",
+		"body": [
+			" != ",
+		],
+		"description": "budy"
+	},
+	"mgo": {
+		"prefix": "/mgo",
+		"body": [
+			"package main",
+			"",
+			"func main(){",
+			"    $0",
+			"}"
+		],
+		"description": "mgo"
 	},
 }
 
