@@ -1,129 +1,75 @@
 {
-	"xiaokh": {
-		"prefix": "/a",
+	"yiji": {
+		"prefix": "/p1",
 		"body": [
-			"()"
+			"# <center>$0</center>"
 		],
-		"description": "xiaokh"
+		"description": "yiji"
 	},
-	"xiaokh2": {
+
+	"erji": {
+		"prefix": "/p2",
+		"body": [
+			"## __$0__"
+		],
+		"description": "erji"
+	},
+	"sanji": {
+		"prefix": "/p3",
+		"body": [
+			"### __$0__"
+		],
+		"description": "sanji"
+	},
+	"siji": {
+		"prefix": "/p4",
+		"body": [
+			"#### __$0__"
+		],
+		"description": "siji"
+	},
+	"tupian": {
+		"prefix": "/tp",
+		"body": [
+			"![图片]($0)"
+		],
+		"description": "tupian"
+	},
+	"daima": {
+		"prefix": "/dm",
+		"body": [
+			"```$0",
+			"",
+			"```"
+		],
+		"description": "daima"
+	},
+	"jiankh": {
+		"prefix": "/c",
+		"body": [
+			"> "
+		],
+		"description": "jiankh"
+	},
+	"xkh": {
 		"prefix": "/b",
 		"body": [
 			"($0)"
 		],
-		"description": "xiaokh2"
+		"description": "xkh"
 	},
-
-	"danyh": {
-		"prefix": "/c",
-		"body": [
-			"'$0'"
-		],
-		"description": "danyh"
-	},
-	"maody": {
+	"hg": {
 		"prefix": "/d",
 		"body": [
-			" := "
+			"- "
 		],
-		"description": "maody"
+		"description": "hg"
 	},
-	"jiankh": {
-		"prefix": "/e",
-		"body": [
-			"<$0>"
-		],
-		"description": "jiankh"
-	},
-	"syinhao": {
-		"prefix": "/f",
-		"body": [
-			"\"$0\""
-		],
-		"description": "syinhao"
-	},
-	"dakh": {
-		"prefix": "/g",
-		"body": [
-			"{",
-			"    $0",
-			"}",
-			""
-		],
-		"description": "dakh"
-	},
-	"zhongkh": {
+	"zkh": {
 		"prefix": "/h",
 		"body": [
 			"[$0]"
 		],
-		"description": "zhongkh"
-	},
-	"equal": {
-		"prefix": "/i",
-		"body": [
-			" = "
-		],
-		"description": "equal"
-	},
-	"xinhao": {
-		"prefix": "/k",
-		"body": [
-			"*",
-		],
-		"description": "xinhao"
-	},
-	"qudizhi": {
-		"prefix": "/l",
-		"body": [
-			"&",
-		],
-		"description": "qudizhi"
-	},
-	"equals": {
-		"prefix": "/n",
-		"body": [
-			" == ",
-		],
-		"description": "equals"
-	},
-	"ganth": {
-		"prefix": "/p",
-		"body": [
-			"!",
-		],
-		"description": "ganth"
-	},
-	"binqie": {
-		"prefix": "/q",
-		"body": [
-			" && ",
-		],
-		"description": "binqie"
-	},
-	"huoze": {
-		"prefix": "/r",
-		"body": [
-			" || ",
-		],
-		"description": "huoze"
-	},
-	"budy": {
-		"prefix": "/t",
-		"body": [
-			" != ",
-		],
-		"description": "budy"
-	},
-	"mgo": {
-		"prefix": "/mgo",
-		"body": [
-			"package main",
-			"",
-			"func main(){",
-			"    $0",
-			"}"
-		],
-		"description": "mgo"
+		"description": "zkh"
 	},
 }
