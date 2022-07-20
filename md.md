@@ -2,7 +2,7 @@
 	"yiji": {
 		"prefix": "/p1",
 		"body": [
-			"# <center>$0</center>"
+			"# <center><font color="#006666">$0</font></center>"
 		],
 		"description": "yiji"
 	},
@@ -10,21 +10,21 @@
 	"erji": {
 		"prefix": "/p2",
 		"body": [
-			"## __$0__"
+			"## __<font color="#006666">$0</font>__"
 		],
 		"description": "erji"
 	},
 	"sanji": {
 		"prefix": "/p3",
 		"body": [
-			"### __$0__"
+			"### __<font color="#006666">$0</font>__"
 		],
 		"description": "sanji"
 	},
 	"siji": {
 		"prefix": "/p4",
 		"body": [
-			"#### __$0__"
+			"#### __<font color="#006666">$0</font>__"
 		],
 		"description": "siji"
 	},
