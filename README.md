@@ -6,4 +6,4 @@
 - go.md vscode中go的snippets
 - tmux.md tmux的快捷键
 - vscode vscode的快捷键
-skywind3000/vim-terminal-help
+skywind3000/vim-terminal-help(和有些快捷键冲突,不用也罢)
