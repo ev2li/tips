@@ -2,6 +2,7 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 const completionItemBuilder_1 = require("../completionItemBuilder");
 const baseTemplates_1 = require("./baseTemplates");
+const utils_1 = require("../utils");
 class RchTemplate extends baseTemplates_1.BaseExpressionTemplate {
     constructor() {
         super();
@@ -54,10 +55,40 @@ class CapTemplate extends baseTemplates_1.BaseExpressionTemplate {
     }
 }
 exports.CapTemplate = CapTemplate;
+class FunTemplate extends baseTemplates_1.BaseExpressionTemplate {
+    constructor() {
+        super();
+    }
+    buildCompletionItem(code, position) {
+        let replacement = '{{expr}}';       
+        return completionItemBuilder_1.CompletionItemBuilder
+            .create("fun", code)
+            .description(`func expr()`)
+            .replace(`func {{expr}}() {\n${utils_1.getIndentCharacters()}\${0}\n}`, position, true)
+            .build();
+    }
+}
+exports.FunTemplate = FunTemplate;
+class InterTemplate extends baseTemplates_1.BaseExpressionTemplate {
+    constructor() {
+        super();
+    }
+    buildCompletionItem(code, position) {
+        let replacement = '{{expr}}';       
+        return completionItemBuilder_1.CompletionItemBuilder
+            .create("inter", code)
+            .description(`func expr()`)
+            .replace(`func ({{expr}}) () {\n${utils_1.getIndentCharacters()}\${0}\n}`, position, true)
+            .build();
+    }
+}
+exports.InterTemplate = InterTemplate;
 exports.build = () => [
     new RchTemplate(),
     new WchTemplate(),
     new CloseTemplate(),
     new CapTemplate(),
+    new FunTemplate(),
+    new InterTemplate()
 ];
 //# sourceMappingURL=varTemplates.js.map
