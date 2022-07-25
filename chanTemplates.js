@@ -55,6 +55,45 @@ class CapTemplate extends baseTemplates_1.BaseExpressionTemplate {
     }
 }
 exports.CapTemplate = CapTemplate;
+class ArrTemplate extends baseTemplates_1.BaseExpressionTemplate {
+    constructor() {
+        super();
+    }
+    buildCompletionItem(code, position) {
+        return completionItemBuilder_1.CompletionItemBuilder
+            .create("arr", code)
+            .description(`[]expr{}`)
+            .replace('[]{{expr}}{$0}', position, true)
+            .build();
+    }
+}
+exports.ArrTemplate = ArrTemplate;
+class SliceTemplate extends baseTemplates_1.BaseExpressionTemplate {
+    constructor() {
+        super();
+    }
+    buildCompletionItem(code, position) {
+        return completionItemBuilder_1.CompletionItemBuilder
+            .create("slice", code)
+            .description(`[]expr()`)
+            .replace('[]{{expr}}($0)', position, true)
+            .build();
+    }
+}
+exports.SliceTemplate = SliceTemplate;
+class StrTemplate extends baseTemplates_1.BaseExpressionTemplate {
+    constructor() {
+        super();
+    }
+    buildCompletionItem(code, position) {
+        return completionItemBuilder_1.CompletionItemBuilder
+            .create("str", code)
+            .description(`string(expr)`)
+            .replace('string({{expr}})', position, true)
+            .build();
+    }
+}
+exports.StrTemplate = StrTemplate;
 class FunTemplate extends baseTemplates_1.BaseExpressionTemplate {
     constructor() {
         super();
@@ -89,6 +128,9 @@ exports.build = () => [
     new CloseTemplate(),
     new CapTemplate(),
     new FunTemplate(),
-    new InterTemplate()
+    new InterTemplate(),
+    new ArrTemplate(),
+    new SliceTemplate(),
+    new StrTemplate()
 ];
 //# sourceMappingURL=varTemplates.js.map
