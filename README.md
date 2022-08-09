@@ -23,3 +23,5 @@ https://www.zhihu.com/question/485275736/answer/2570266424
 https://zhuanlan.zhihu.com/p/139388970
 
 https://zhuanlan.zhihu.com/p/122277982
+
+bat fd htop neofetch glances
