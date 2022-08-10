@@ -25,3 +25,4 @@ https://zhuanlan.zhihu.com/p/139388970
 https://zhuanlan.zhihu.com/p/122277982
 
 bat fd htop neofetch glances exa
+https://zhuanlan.zhihu.com/p/397115131
