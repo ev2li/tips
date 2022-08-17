@@ -35,3 +35,5 @@ https://www.csdn.net/tags/MtjaQgwsNzA3OTAtYmxvZwO0O0OO0O0O.html
 https://www.panzend.xyz/zh-cn/download/linux
 https://zhuanlan.zhihu.com/p/141536199
 https://blog.csdn.net/qq_33532713/article/details/115427628
+
+https://www.panzend.xyz/panda/img/avatar.ac3ae8c.png
