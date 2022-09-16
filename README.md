@@ -39,3 +39,8 @@ https://zhuanlan.zhihu.com/p/141536199
 https://blog.csdn.net/qq_33532713/article/details/115427628
 
 https://www.panzend.xyz/panda/img/avatar.ac3ae8c.png
+
+http://www.wowotech.net/process_management/context-switch-tlb.html
+https://zhuanlan.zhihu.com/p/347445164
+https://zhuanlan.zhihu.com/p/66994486
+https://zhuanlan.zhihu.com/p/65298260
