@@ -19,3 +19,9 @@ https://zhuanlan.zhihu.com/p/502740833
 https://mp.weixin.qq.com/s?__biz=MzUzNTY5MzU2MA%3D%3D&chksm=fa80d8bfcdf751a948ea49ee620ca9d88ff0a62b4ad4e3a53321fee6813b8f90098fd72f7b11&idx=1&lang=zh_CN&mid=2247485736&scene=21&sn=921a9dfe3d638074b68a4fd072ea3cb9&token=401640573#wechat_redirect
 https://mp.weixin.qq.com/s/ivO-USpxiyrL-9BzgE8Vcg
 https://juejin.cn/post/7017009226702651406
+
+https://design-patterns.readthedocs.io/zh_CN/latest/index.html
+
+https://blog.csdn.net/qq_39221436/article/details/115790105
+
+https://fred-book.github.io/
