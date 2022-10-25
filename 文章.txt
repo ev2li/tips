@@ -25,3 +25,4 @@ https://design-patterns.readthedocs.io/zh_CN/latest/index.html
 https://blog.csdn.net/qq_39221436/article/details/115790105
 
 https://fred-book.github.io/
+https://segmentfault.com/blog/go-study
